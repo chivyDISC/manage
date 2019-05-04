@@ -12,6 +12,7 @@
         <li>{{ $project->content }}</li>
         <li>{{ $project->start }}</li>
         <li>{{ $project->end }}</li>
+        <a href="/projects/{{$project->id}}/edit">Edit</a>
     @endforeach
     <br>
     <a href="/projects/create"> Create One! </a>
